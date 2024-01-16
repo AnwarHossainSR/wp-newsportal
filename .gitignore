@@ -1,0 +1,45 @@
+# Ignore core WordPress files
+wp-admin/
+wp-includes/
+wp-content/upgrade/
+wp-content/backup-db/
+wp-content/cache/
+wp-content/upgrade/
+wp-content/uploads/
+wp-content/upgrade
+wp-content/*.log
+wp-content/*.bak
+
+# Ignore theme and plugin files
+wp-content/themes/
+wp-content/plugins/
+
+# Ignore specific files
+wp-config.php
+.htaccess
+
+# Ignore temporary files
+*.log
+*.bak
+*.sql
+*.zip
+*.gz
+
+# Ignore node_modules (if using npm)
+node_modules/
+
+# Ignore compiled CSS and JS (if using a build process)
+*.min.css
+*.min.js
+
+# Ignore environment configuration
+.env
+
+# Ignore backup files
+*.bak
+*.back
+*.swp
+
+# Ignore OS-generated files
+.DS_Store
+Thumbs.db
